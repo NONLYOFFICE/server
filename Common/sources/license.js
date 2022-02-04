@@ -50,13 +50,13 @@ exports.readLicense = function*() {
 		branding: false,
 		connections: constants.LICENSE_CONNECTIONS,
 		customization: false,
-		usersCount: 0,
-		usersExpire: constants.LICENSE_EXPIRE_USERS_ONE_DAY,
+		usersCount: 99999,
+		usersExpire: 99999,
 		hasLicense: true,
 		plugins: true,
 		buildDate: oBuildDate,
 		startDate: startDate,
-		endDate: null
+		endDate: "2099-02-01T00:00:00.000Z"
 	}, null];
 };
 
